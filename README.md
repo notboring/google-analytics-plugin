@@ -1,4 +1,4 @@
-google-analytics-plugin
+google-analytics-plugin (apple ad id references removed)
 =======================
 [![npm](https://img.shields.io/npm/v/cordova-plugin-google-analytics.svg)](https://www.npmjs.com/package/cordova-plugin-google-analytics)
 [![npm](https://img.shields.io/npm/dt/cordova-plugin-google-analytics.svg?label=npm%20downloads)](https://www.npmjs.com/package/cordova-plugin-google-analytics)
@@ -10,6 +10,11 @@ Prerequisites:
 * A Cordova 3.0+ project for iOS, Android, browser (PWA), Windows Phone 8 and/or Windows 10 (UWP)
 * A Mobile App property through the Google Analytics Admin Console
 * (Android) Google Play Services SDK installed via [Android SDK Manager](https://developer.android.com/sdk/installing/adding-packages.html)
+
+# Changes compared to the official version by Dan Wilson
+
+Apples Advertisment ID references have been removed. This is to work around Apple's iTunes Connect detecting the usage of the Advertisment
+ID by reference not actual usage. DO NOT USE THIS IF YOU NEED THE ADVERTISMENT ID!
 
 # Installing
 
