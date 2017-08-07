@@ -20,17 +20,7 @@ ID by reference not actual usage. DO NOT USE THIS IF YOU NEED THE ADVERTISMENT I
 
 This plugin follows the Cordova 3.0+ plugin spec, so it can be installed through the Cordova CLI in your existing Cordova project:
 ```bash
-cordova plugin add https://github.com/danwilson/google-analytics-plugin.git
-```
-
-This plugin is also available on npm if you are using Cordova 5.0+:
-```bash
-cordova plugin add cordova-plugin-google-analytics
-```
-
-... OR the Cordova Plugin Registry if you are using a version of Cordova before 5.0 (while it remains open, as it is planning to shut down soon due to the move to npm):
-```bash
-cordova plugin add com.danielcwilson.plugins.googleanalytics
+cordova plugin add https://github.com/notboring/google-analytics-plugin.git
 ```
 
 *Important Note* If the latest versions (0.8.0+) of this plugin are not working for you with Android on Cordova 5.0+, please try the suggestions in [Issues 123](https://github.com/danwilson/google-analytics-plugin/issues/123#issuecomment-151145095). Google Play Services has been very confusing to integrate, but in recent months it has been simplified.  This plugin uses the new simpler way (including it as a framework instead of bundling it which can conflict with other plugins bundling it), but if you previously installed this plugin some old files might still be lingering.
